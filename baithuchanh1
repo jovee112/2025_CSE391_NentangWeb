@@ -25,16 +25,16 @@ table, th, td {
         <th rowspan= "2">Grade</th>
     </tr>
     <tr>
-        <td>Code</td>
-        <td>Name</td>
+        <th>Code</th>
+        <th>Name</th>
         <td>8</td>
         <td>7</td>
         <td>5</td>
         <td>6</td>
         <td>7</td>
         <td>8</td>
-        <td>NR</td>
-        <td>R</td>
+        <th>NR</th>
+        <th>R</th>
     </tr>
     <tr>
         <td>80549061</td>
@@ -43,14 +43,28 @@ table, th, td {
         <td>100%</td>
         <td>100%</td>
         <td>17,6</td>
-        <td colspan = "3"> <td>
+        <td colspan = "4"></td>
         <td>17,6</td>
         <td>18</td>
     </tr>
     <tr>
+     <td>80549062</td>
+        <td>Mary</td>
+        <td>10%</td>
+        <td>50%</td>
+        <td>50%</td>
+        <td>6,8</td>
+        <td>100%</td>
+        <td>100%</td>
+        <td>50%</td>
+        <td>16,5</td>
+        <td>16,5</td>
+        <td>17</td>
+     </tr>
+    <tr>
         <td>80549063</td>
         <td>Claire</td>
-        <td colspan = "3"> <td>
+        <td colspan = "4"></td>
         <td>50%</td>
         <td>50%</td>
         <td>50%</td>
@@ -61,4 +75,5 @@ table, th, td {
 </table>
 </body>
 </html>
+
 
