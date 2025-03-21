@@ -1,0 +1,39 @@
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 50px;
+  border: 10px;
+  cursor: pointer;
+}
+.add-btn {
+  background-color: #6cf988;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 50px;
+  cursor: pointer;
+}
+.reset-btn {
+  background-color: #cbbbba;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 50px;
+  cursor: pointer;
+}
+.state {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #8b4444;
+}
