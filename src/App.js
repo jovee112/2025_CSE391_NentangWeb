@@ -5,19 +5,15 @@ function App() {
   const [counter, setCounter] = useState(0);
 
   const incrementCounter = () => {
-    setCounter(counter + 1);
+    setCounter(prevcounter => prevcounter + 1);
   };
 
   const decrementCounter = () => {
-    setCounter(counter - 1);
+    setCounter(prevcounter => prevcounter - 1);
   };
 
   const resetCounter = () => {
     setCounter(0);
-  };
-
-  const handleDelete = () => {
-    setCounter(counter - 1);
   };
 
   return (
